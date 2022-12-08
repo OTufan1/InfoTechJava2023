@@ -9,7 +9,7 @@ public class PrimitiveDataTypes {
 		                                               
 		// char / boolean 
 		
-		boolean isTrue= false;  // 1 bit hafizada yer kaplar. 
+		boolean isTrue= false;  //  1 bit hafizada yer kaplar. 
 		boolean isCold= true;
 		
 		char ilkHarf = 'A';    // character a,A,1,8,,%,$,+,space(bosluk).
