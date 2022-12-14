@@ -6,7 +6,7 @@ public class IkinciDers {
 
 	public static void main(String[] args) {
 		
-//		Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 //		
 //		System.out.println(" Byte degerinde bir tane sayi giriniz : ");
 //		int byteSayisi = scan.nextByte();
@@ -47,7 +47,7 @@ public class IkinciDers {
 		
 		
 		/*
-		 * TIP DONUSUMLERI KUCUKTEN BUYUGE
+		 * TIP DONUSUMLERI KUCUKTEN BUYUGE (casting)
 		 */
 		
 //		byte number = 12;
@@ -103,7 +103,7 @@ public class IkinciDers {
 		
 //		System.out.println(8+5+6-14);
 //		
-//		System.out.println(5/10);//5 int 10 int ifade
+//	System.out.println(5/10);//5 int 10 int ifade
 //		System.out.println((double)5/10);
 //		
 //		System.out.println(5.3 + 5);
@@ -187,6 +187,8 @@ public class IkinciDers {
 		System.out.println("Toplam = " + toplam);
 		System.out.println("Toplam = " + sayi1 + sayi2);
 		System.out.println("Toplam = " + (sayi1 + sayi2));
+		System.out.println(sayi1 + sayi2+"Toplam = " );
+
 		
 		//10 ve 20 toplami 30 hesaplandi
 		
