@@ -7,7 +7,7 @@ public class ToLowerCase_ToUpperCase {
 
 	public static void main(String[] args) {
 		//toUpperCase()==> Bakacagimiz string ifadenin tamamini Buyuk harf yapar
-		
+		//toLowerCase()==> Bakacagimiz string ifadenin tamamini kucuk harf yapar
 		
 		String isim = "InfoTech Academy";
 		String buyukIsim = isim.toUpperCase();
