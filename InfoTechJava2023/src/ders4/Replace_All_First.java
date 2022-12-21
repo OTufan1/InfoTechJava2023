@@ -16,6 +16,8 @@ public class Replace_All_First {
 		System.out.println(str.replace('o', 'a'));
 		
 		System.out.println(str.replaceFirst("a", "e"));
+		
+		System.out.println(str.replaceAll("","_"));
 		/*
 		 
 		 

@@ -1,4 +1,4 @@
-package ders4;
+ package ders4;
 
 public class IndexOf {
 
@@ -9,11 +9,11 @@ public class IndexOf {
 		//CharAt()==> hangi indexte hangi char oldugunu gormek icin kullaniriz . char ifadesi doner
 		
 		String str ="Calisirsaniz, Java ogrenmek cok kolay";
-		System.out.println(str.indexOf('a'));
-		System.out.println(str.indexOf("a"));
-		System.out.println(str.indexOf("j"));
+//		System.out.println(str.indexOf('a'));
+//		System.out.println(str.indexOf("a"));
+//		System.out.println(str.indexOf("j"));
 //		System.out.println(str.indexOf("Java"));
-//		System.out.println(str.indexOf("Java", 4)); // 4.indexten sonra "Java" ifadesinin olup olmadigina bakar
+		System.out.println(str.indexOf("Java", 15)); // 4.indexten sonra "Java" ifadesinin olup olmadigina bakar
 
 		
 
