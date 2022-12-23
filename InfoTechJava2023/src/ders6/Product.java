@@ -4,12 +4,13 @@ public class Product {
 	
 	
 	public Product() {
+		//Parametresiz bos constructor
 		System.out.println("Yapici blok calisti.");
 	}
 	
 	
 	public Product(String name, int numara, String islemciTipi, String ekran, int miktari, double price) {
-		
+		//Burasi parametreli constructor
 		this.name = name;
 		this.id = numara;
 		this.islemci = islemciTipi;
@@ -20,7 +21,7 @@ public class Product {
 		
 	}
 	
-	
+	//Product nesnesinin ozellikleri
 	String name;
 	int id;
 	String islemci;
