@@ -1,5 +1,7 @@
 package ders6;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Constructors {
@@ -22,7 +24,7 @@ public class Constructors {
 		Product product2 = new Product("Lenovo", 200, "i5", "13", 200, 350);
 		System.out.println("Urun ismi= " + product2.name + "urun fiyati " +" " + product2.fiyat);
 		
-		//Product3 kullanicidan veri alinarak girildi.
+//		Product3 kullanicidan veri alinarak girildi.
 		Product product3 = new Product();
 		System.out.println("Urunun name ni giriniz : ");
 		product3.name = scan.nextLine();	
