@@ -38,7 +38,7 @@ public class Main extends ProtectedAccess1 {
 //		access.sayi2();//public olan Sayi2 metotun icersindeki private degere erisim saglandi
 		System.out.println(access.kare());
 		
-		OrnekMetotPrivate orn1 = new OrnekMetotPrivate();//ornekler
+		OrnekMetotPrivate orn1 = new OrnekMetotPrivate();//class icindeki variable ve metotlara erisime dikkat ediniz
 		System.out.println(orn1.sonuc());
 		orn1.setSayi(12);
 		System.out.println(orn1.sonuc());
