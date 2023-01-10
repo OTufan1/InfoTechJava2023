@@ -20,7 +20,7 @@ public class Time {
 		System.out.println(time.now(ZoneId.of("Europe/Istanbul")));
 		System.out.println(time.now(ZoneId.of("Asia/Tokyo")));
 		System.out.println(time.now(ZoneId.of("Africa/Cairo")));
-
+	
 	}
 
 }
