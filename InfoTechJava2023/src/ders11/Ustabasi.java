@@ -11,11 +11,13 @@ public class Ustabasi extends Isci1{
 		ub1.sorumluOlduguBirim="tamirhane";//Ustabasi
 		ub1.bolum="Tamirhane";//Isci1
 		ub1.isim="Mehmet";//Personel
+	
 		
 		Isci1 ub2 = new Ustabasi();
 		ub2.bolum="Atolye";//Isci1
 		ub2.statu = "Isci";//Personel1
-		
+		ub2.yakit();
+		ub2.yakit(78.7);
 		
 		Personel1 ub3 = new Ustabasi();
 		ub3.soyIsim="Bulut";//Personel1
