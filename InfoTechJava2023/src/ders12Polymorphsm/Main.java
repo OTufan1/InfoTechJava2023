@@ -7,6 +7,7 @@ public class Main {
 //		MeslekKredisi kredi1 = new MeslekKredisi();
 //		System.out.println(kredi1.hesapla(20000));
 		
+				
 		BaseKredi kredi2 = new IhtiyacKredisi();
 //		System.out.println(kredi2.hesapla(20000));
 //		
